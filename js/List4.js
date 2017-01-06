@@ -63,7 +63,8 @@ function ChangeClub() {
 function FillTable(data) {
 
     $("#myTable tbody").html("");
-
+    $('.page-navigation').remove();
+    
     // Add some examples to the page
     $.each(data, function (index, value) {
 
